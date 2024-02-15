@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - cuervos mapa</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+
+  <title>Página de Cuervos</title>
+
+  <style>
+
+    #section2 {
+
+      background-color: silver; 
+
+      transition: background-color 0.3s ease; 
+
+    }
+
+
+    #section2:mouseover {
+
+      background-color: silver;
+
+    }
+
+  </style>
+   </style>
+    <!-- Incluir la hoja de estilos de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Incluir la biblioteca de Leaflet -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body bgcolor="#a6d3ff">
+
+  <div align="center">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Corvus_tasmanicus_-_Collinsvale.jpg" alt="Descripción de la imagen" width="400">
+
+    <div align="justify">
+
+      <h1>Los cuervos son muy bonitos</h1>
+
+    </div>
+
+  </div>
+
+  
+
+  <section class="section1" id="section1">
+
+    
+
+    <h2>Seccion 1</h2>
+
+    <p>El cuervo grande (Corvus corax), anteriormente denominado cuervo común por la SEO, es una especie de ave paseriforme de la familia Corvidae. Presente en casi todo el hemisferio septentrional, es la especie de córvido con la mayor superficie de distribución. A pesar de ello, la corneja negra (Corvus corone), de menor tamaño aunque muy similar en su aspecto morfológico externo, es muy abundante en sus propias áreas de distribución, por lo que a menudo se confunde a las cornejas negras con cuervos grandes.</p>
+
+  </section>
+
+  
+
+  <section class="section2" id="section2">
+
+    <h2>Seccion 2</h2>
+
+    <p>Un cuervo grande maduro mide entre 52 y 69 cm de longitud con una envergadura de 115 a 160 cm en Europa: 144-160 cm el macho y 124-138 cm la hembra. Su peso varía de 0,7 a 1,7 kg, lo que le hace ser la más pesada de las paseriformes. Las aves de las regiones más frías como el Himalaya y Groenlandia son generalmente mayores, con un pico ligeramente más grande, mientras que los individuos de las regiones más cálidas son más pequeños, con un pico proporcionalmente más pequeño. Hay varias subespecies, tales como:</p>
+
+    <div>a. C. c. canariensis</div>
+
+    <div>b. C. c. corax</div>
+
+    <div>c. C. c. subcorax</div>
+
+
+
+    <h2>Seccion 3</h2>
+
+    <div><a href="https://es.wikipedia.org/wiki/Animalia">Animales</a></div>
+
+    <div><a href="https://es.wikipedia.org/wiki/Passeriformes">Passeriformes</a></div>
+
+    <div><a href="https://es.wikipedia.org/wiki/Corvidae">Corvidaes</a></div>
+
+  </section>
+
+  
+
+  <div class="botones">
+
+    <button id="ocultarDiv">Ocultar Primera Seccion</button>
+
+    <button id="mostrarDiv">Mostrar Primera Seccion</button>
+
+    <button id="cambiarColorFondo">Cambiar Color de Fondo</button>
+
+    <button id="btnCreditos">Creditos</button>
+
+  <button onclick="obtenerUbicacion" id=obtenerUbicacion>Obtener Ubicación</button>
+  
+  <div id="map" style="height: 400px; width: 100%;"></div>
+
+  </div>
+
+  
+
+  <footer>
+
+    <h4><p style="text-align: center">Copyright 2023</p></h4>
+
+  </footer>
+
+ 
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

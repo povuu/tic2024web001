@@ -1,0 +1,93 @@
+body {
+
+  margin: 0;
+
+}
+
+
+
+img {
+
+  width: 30%;
+
+}
+
+
+
+.section1 {
+
+  background-color: gold;
+
+  border: 2px solid;
+
+  margin-top: 3px;
+
+  margin-bottom: 5px;
+
+
+
+}
+
+
+
+.section2 {
+
+  background-color: silver;
+
+  border: 2px solid;
+
+  margin-top: 3px;
+
+  margin-bottom: 5px;
+
+}
+
+
+
+h1, h2, h4, p {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+h4 {
+
+  text-align: center;
+
+}
+
+.botones {
+
+    margin-top: 10px;
+
+}
+
+
+
+.botones button {
+
+    margin-right: 10px;
+
+    padding: 5px 10px;
+
+    background-color: #f0f0f0;
+
+    border: striped;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+
+footer {
+
+    text-align: center;
+
+}
